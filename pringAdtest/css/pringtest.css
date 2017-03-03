@@ -1,0 +1,141 @@
+/*
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #A8A8A8; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 16px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #4CE094; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #C43737; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #A8A8A8; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+*/
+
+.body {
+	/*
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-image: linear-gradient(141deg, rgb(15, 184, 173) 0%, rgb(31, 200, 219) 51%, rgb(44, 181, 232) 75%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+	*/
+	background-color: white;
+	background-image: url("../bg/bg-1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:97%;
+	width: 300px;
+	height: 500px;
+}
+
+
+.entry-form {
+	/*position: relative;*/
+	top: 25%;
+}
+
+.text-box {
+	width: 95%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid grey;
+    color: black;
+    font-family: 'Droid Sans', sans-serif;
+	background-color: rgba(255, 255, 255, 0.3);
+	/*border-color: rgba(255, 255, 255, 0.1);*/
+	border: none;
+}
+
+.go-button {
+	width: 60%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.toggle-button {
+	/*width: 60%;*/
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+}
+
+.center {
+  text-align:center;
+}
+
+
+
+.display-advalue {
+	font-size: 60px;
+	/*position: realtive;*/
+	top: 50%;
+}
+
+.h {
+	/*
+	text-shadow: 2px 2px #000000;
+	*/
+}
+
+p.text {
+	font-size: 14px;
+}
+
+.text {
+	color: white;
+    font-family: 'Droid Sans', sans-serif;
+}

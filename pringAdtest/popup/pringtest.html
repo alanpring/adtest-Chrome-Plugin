@@ -1,0 +1,71 @@
+<HTML>
+<head>
+<title>pringTest</title>
+<script type="text/javascript" src="../js/pringtest.js"></script>
+<link rel="stylesheet" href="../css/pringtest.css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+</head>
+
+<body class="body">
+<!-- tutorial here: https://www.youtube.com/watch?v=Nty3-ouIrkk -->
+
+<!-- you need to set the page width and height to be fixed. want 300x500 but it's 316x516 -->
+
+<div class="center text">
+<h1 class="h">pringAdtest</h1>
+</div>
+
+<!-- make this a toggle switch -->
+<div id="toggle-button" class="center">
+<button type="submit" id="toggle-button" class="toggle-button">ON</button>
+</div>
+
+<div id="current-value" class="center text">
+<p class="text">
+you are currently testing for:
+</p>
+<p class="display-advalue">
+dogbutt
+</p>
+</div>
+
+
+
+<!-- USER INPUT -->
+<!-- put last enetered value in here, otherwise leave blank -->
+
+
+<div id="entry" class="entry-form">
+
+	<div class="center text">
+	<h3 class="center text">enter the value of your adtest string:</h3>
+	</div>
+
+	<div class="center">
+	<input type="text" id="userInput" class="text-box">
+	<button type="submit" id="button" class="go-button">Go!</button>
+	</div>
+
+
+
+
+	<!-- TOGGLE PLUGIN -->
+	<!-- https://proto.io/freebies/onoff/ --
+	<div class="onoffswitch">
+		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+		<label class="onoffswitch-label" for="myonoffswitch">
+			<span class="onoffswitch-inner"></span>
+			<span class="onoffswitch-switch"></span>
+		</label>
+	</div>
+	-->
+	<!-- LOG USER INPUT -->
+</div>
+
+<script>
+//listen out for click. trigger function on click
+document.getElementById('button').addEventListener('click', loadAdtest);
+</script>
+
+</body>
+</HTML>
